@@ -5,7 +5,7 @@ Model, a well known model for cluster analysis in temporal series.
 
 ## Citation
 
-If you find this code useful and use it in your work, please cite [our JMLR
+If you find this code helpful and use it in your work, please cite [our JMLR
 paper](http://www.jmlr.org//papers/v20/16-615.html):
 
 > Teixeira, L. V., Assunção, R. M., & Loschi, R. H. (2019). Bayesian Space-Time
