@@ -30,7 +30,7 @@ This code was also used for the [ICMD version](https://doi.org/10.1109/ICDM.2015
 > generative spatial clustering model for random data through spanning trees. In
 > 2015 IEEE International Conference on Data Mining (pp. 997-1002). IEEE.
 
-```bitext
+```bitex
 @inproceedings{teixeira2015generative,
     title={A generative spatial clustering model for random data through spanning trees},
     author={Teixeira, Leonardo V. and Assuncao, Renato M. and Loschi, Rosangela H.},
