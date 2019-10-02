@@ -1,11 +1,47 @@
-SPPM - Spatial Product Partition Model
-======================================
+# SPPM - Spatial Product Partition Model
 
-This is the Spatial PPM - a spatial version of the Product Partition Model,
-a well known model for cluster analysis in temporal series.
+This is the Spatial PPM - a spatial version of the Product Partition
+Model, a well known model for cluster analysis in temporal series.
 
-Dependencies
-------------
+## Citation
+
+If you find this code useful and use it in your work, please cite [our JMLR
+paper](http://www.jmlr.org//papers/v20/16-615.html):
+
+> Teixeira, L. V., Assunção, R. M., & Loschi, R. H. (2019). Bayesian Space-Time
+> Partitioning by Sampling and Pruning Spanning Trees. Journal of Machine
+> Learning Research, 20(85), 1-35.
+
+```bibtex
+@article{teixeira2019bayesian,
+    title={Bayesian Space-Time Partitioning by Sampling and Pruning Spanning Trees},
+    author={Teixeira, Leonardo V. and Assun{\c{c}}{\~a}o, Renato M. and Loschi, Rosangela H.},
+    journal={Journal of Machine Learning Research},
+    volume={20},
+    number={85},
+    pages={1--35},
+    year={2019}
+}
+```
+
+This code was also used for the [ICMD version](https://doi.org/10.1109/ICDM.2015.106):
+
+> Teixeira, L. V., Assuncao, R. M., & Loschi, R. H. (2015, November). A
+> generative spatial clustering model for random data through spanning trees. In
+> 2015 IEEE International Conference on Data Mining (pp. 997-1002). IEEE.
+
+```bitext
+@inproceedings{teixeira2015generative,
+    title={A generative spatial clustering model for random data through spanning trees},
+    author={Teixeira, Leonardo V. and Assuncao, Renato M. and Loschi, Rosangela H.},
+    booktitle={2015 IEEE International Conference on Data Mining},
+    pages={997--1002},
+    year={2015},
+    organization={IEEE}
+}
+```
+
+## Dependencies
 
 This code uses C++11. The external dependencies are listed below:
 
@@ -27,8 +63,7 @@ the include and lib folders for the LEMON library).
 [4]: https://github.com/muflihun/easyloggingpp "Easylogging++"
 
 
-Building
---------
+## Building
 
 This project uses CMake build system. To build it from source, create a build
 directory, change to it, call the cmake tool and then call the make tool.
@@ -43,8 +78,7 @@ Example:
 The binary 'sppm' will be available under the 'src' subdir, inside the build
 dir.
 
-Usage
------
+## Usage
 
 	sppm [options] [--] normal <GeoJSON> <attr> <r> <s> <m> <v> <a> <b>
 	sppm [options] [--] poisson <GeoJSON> <attr_Yi> <attr_Ei> <r> <s> <a> <b>
